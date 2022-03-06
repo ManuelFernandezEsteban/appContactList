@@ -1,0 +1,39 @@
+<div>
+    <div class="wrapper-item">
+        <div class="wrapper-img">
+            <img class="img-avatar" [src]=item.img alt="avatar">
+        </div>
+        <div class="wrapper-content-item">
+            <p class="title">{{item.nombre}}</p>
+            <p class="subtitle">{{item.direccion}}</p>
+        </div>
+        <button class="boton" (click)="openDialog()">
+            <img src="../../../../assets/imagenes/accion.svg" alt="tres puntos">
+        </button>
+
+    </div>
+    <div class="wrapper-dialog" *ngIf="mostrarDialogo">
+        <input type="button" class="boton-interior" value="Borrar contacto" (click)="borrar()">
+        <input type="button" class="boton-interior" value="Editar contacto" (click)="mostrarEditar()">        
+    </div>
+    <div *ngIf="edicion">
+        <form autocomplete="off" (submit)="editar()" [formGroup]="itemForm">
+            <div class="wrapper-edicion">
+                <div class="box-input">
+                    <div class="wrapper-input">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" formControlName="nombre">
+                    </div>
+                    <div class="wrapper-input">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" name="direccion" formControlName="direccion">
+                    </div>
+                </div>
+                <div class="botones">
+                    <input type="submit" class="boton-interior" value="Aceptar">
+                    <input type="reset" class="boton-interior" value="Cancelar" (click)="reset()">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

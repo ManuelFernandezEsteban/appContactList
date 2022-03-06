@@ -1,0 +1,47 @@
+{
+    "lista":[
+        {
+            "id":1,
+            "nombre":"Guy Hawkins",
+            "direccion":"2464 Royal Ln. Mesa, New Jersey 45463",
+            "img":"../assets/imagenes/guy-hawkins.svg"
+        },
+        {
+            "id":2,
+            "nombre":"Ronald Richards",
+            "direccion":"4517 Washington Ave. Manchester, Kentucky 39495",
+            "img":"../assets/imagenes/ronald-richards.svg"
+        },
+        {
+            "id":3,
+            "nombre":"Esther Howard",
+            "direccion":"4140 Parker Rd. Allentown, New Mexico 31134",
+            "img":"../assets/imagenes/esther-howard.svg"
+        },
+        {
+            "id":4,
+            "nombre":"Albert Flores",
+            "direccion":"6391 Elgin St. Celina, Delaware 10299",
+            "img":"../assets/imagenes/albert-flores.svg"
+        },
+        {
+            "id":5,
+            "nombre":"This is a title",
+            "direccion":"Subtitle in da house!",
+            "img":"../assets/imagenes/ejemplo.svg"
+        },
+        {
+            "id":6,
+            "nombre":"Arlene McCoy",
+            "direccion":"2118 Thornridge Cir. Syracuse, Connecticut 35624",
+            "img":"../assets/imagenes/arlene-mccoy.svg"
+        },
+        {
+            "id":7,
+            "nombre":"Cameron Williamson",
+            "direccion":"2715 Ash Dr. San Jose, South Dakota 83475",
+            "img":"../assets/imagenes/cameron-williamson.svg"
+        }
+
+    ]
+}

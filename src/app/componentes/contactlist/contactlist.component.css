@@ -1,0 +1,26 @@
+.wrapper{
+    width: 475px;
+    min-height: 670px;
+    border-radius: 8px;
+    padding: 32px 24px 32px 24px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(max-width:600px){
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+}
